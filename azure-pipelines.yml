@@ -81,7 +81,7 @@ stages:
       vmImage: 'ubuntu-18.04'
     environment: dev
     variables:
-    - group: Release
+    - group: WebAppVariables
     strategy:
       runOnce:
         deploy:
@@ -104,7 +104,7 @@ stages:
       vmImage: 'ubuntu-18.04'
     environment: staging
     variables:
-    - group: 'Release'
+    - group: 'WebAppVariables'
     strategy:
       runOnce:
         deploy:
