@@ -117,3 +117,9 @@ stages:
               azureSubscription: 'ARMSC'
               appName: '$(WebAppNameStaging)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+
+
+
+              
+
+
